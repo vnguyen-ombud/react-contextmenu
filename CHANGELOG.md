@@ -9,6 +9,11 @@ All the changes can be found below. Order used:
 - Fixed
 - Security
 
+## v0.2.3
+
+### Fixed
+- Fix unbinding event handlers
+
 ## v0.2.2
 
 ### Added
