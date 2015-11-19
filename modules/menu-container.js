@@ -111,8 +111,8 @@ var MenuContainer = _react2["default"].createClass({
             fn2 = this._hideMenu;
         document.removeEventListener("mousedown", fn);
         document.removeEventListener("touchstart", fn);
-        window.addEventListener("resize", fn2);
-        document.addEventListener("scroll", fn2);
+        window.removeEventListener("resize", fn2);
+        document.removeEventListener("scroll", fn2);
     },
     render: function render() {
         var _props2 = this.props;
